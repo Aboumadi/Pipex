@@ -6,10 +6,10 @@
 /*   By: aboumadi <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/21 14:20:51 by aboumadi          #+#    #+#             */
-/*   Updated: 2021/11/21 18:53:36 by aboumadi         ###   ########.fr       */
+/*   Updated: 2022/01/10 00:53:05 by aboumadi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include "libft.h"
+#include "pipex.h"
 
 int	count(char const *s, char c)
 {

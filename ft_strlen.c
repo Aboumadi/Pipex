@@ -6,10 +6,10 @@
 /*   By: aboumadi <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/04 17:26:42 by aboumadi          #+#    #+#             */
-/*   Updated: 2022/01/01 14:03:38 by aboumadi         ###   ########.fr       */
+/*   Updated: 2022/01/10 00:54:26 by aboumadi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include "libft.h"
+#include "pipex.h"
 
 size_t	ft_strlen(const char *str)
 {
@@ -17,8 +17,6 @@ size_t	ft_strlen(const char *str)
 
 	i = 0;
 	while (str[i] != '\0')
-	{
 		i++;
-	}
 	return (i);
 }

@@ -1,24 +1,25 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strlen.c                                        :+:      :+:    :+:   */
+/*   ft_strncmp.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: aboumadi <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: aboumadi <aboumadi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/11/04 17:26:42 by aboumadi          #+#    #+#             */
-/*   Updated: 2021/11/21 20:17:01 by aboumadi         ###   ########.fr       */
+/*   Created: 2022/01/10 00:41:46 by aboumadi          #+#    #+#             */
+/*   Updated: 2022/01/10 00:55:23 by aboumadi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include"libft.h"
 
-size_t	ft_strlen(const char *str)
+#include "pipex.h"
+
+int	ft_strncmp(const char *s1, const char *s2, size_t n)
 {
-	int	i;
+	size_t	i;
 
 	i = 0;
-	while (str[i] != '\0')
-	{
+	if (n == 0)
+		return (0);
+	while (s1[i] == s2[i] && i < n - 1 && (s1[i] != '\0' || s2[i] != '\0'))
 		i++;
-	}
-	return (i);
+	return ((unsigned char) s1[i] - s2[i]);
 }

@@ -6,11 +6,11 @@
 /*   By: aboumadi <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/06 20:04:12 by aboumadi          #+#    #+#             */
-/*   Updated: 2022/01/01 14:04:02 by aboumadi         ###   ########.fr       */
+/*   Updated: 2022/01/10 00:55:32 by aboumadi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "pipex.h"
 
 char	*ft_substr(char const *src, unsigned int s, size_t len)
 {

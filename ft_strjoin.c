@@ -6,11 +6,11 @@
 /*   By: aboumadi <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/07 10:31:31 by aboumadi          #+#    #+#             */
-/*   Updated: 2021/11/20 15:26:09 by aboumadi         ###   ########.fr       */
+/*   Updated: 2022/01/10 00:53:26 by aboumadi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include"libft.h"
+#include "pipex.h"
 
 char	*ft_strjoin(char const *s1, char const *s2)
 {

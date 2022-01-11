@@ -3,13 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strlcpy.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: aboumadi <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: aboumadi <aboumadi@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/05 10:25:19 by aboumadi          #+#    #+#             */
-/*   Updated: 2021/11/21 15:42:26 by aboumadi         ###   ########.fr       */
+/*   Updated: 2022/01/10 00:53:58 by aboumadi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include "libft.h"
+
+#include "pipex.h"
 
 size_t	ft_strlcpy(char *s2, const char *s1, size_t n)
 {
@@ -32,9 +33,3 @@ size_t	ft_strlcpy(char *s2, const char *s1, size_t n)
 	}
 	return (j);
 }
-/*int main()
-{
-	char *str1;
-	char str2[10];
-	printf("%lu\n", ft_strlcpy(str2, str1, 0), strlcpy(str2, str1, 0));
-}*/
